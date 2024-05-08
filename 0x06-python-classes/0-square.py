@@ -22,6 +22,4 @@ class Square(object):
         """
 
         if attr:
-            pass
-        else:
-            raise AttributeError()
+            return {}
