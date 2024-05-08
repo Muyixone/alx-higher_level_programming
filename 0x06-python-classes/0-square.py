@@ -8,4 +8,18 @@ class Square(object):
 
     """
 
-    pass
+    def __getattr__(self, attr):
+        """Retrieves the value of the specified attribute.
+
+        Args:
+            attr(str): The name of the attribute to retrieve.
+
+
+        Returns:
+            The value of the specified attribute or
+            passes if there is an error.
+
+        """
+
+        if attr:
+            pass
