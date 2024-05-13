@@ -20,6 +20,4 @@ class Square(object):
             passes if there is an error.
 
         """
-
-        if attr:
-            return {}
+        return None
