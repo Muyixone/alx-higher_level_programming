@@ -3,10 +3,9 @@
 const [firstArg] = process.argv.splice(2);
 
 if (firstArg !== undefined) {
-  const result = firstArg * 1;
-
-  if (isNaN(result) === false) {
-    console.log(result);
+  if (isNaN(firstArg) === false) {
+    const res = Math.trunc(firstArg);
+    console.log(`My number: ${res}`);
   } else {
     console.log('Not a number');
   }
