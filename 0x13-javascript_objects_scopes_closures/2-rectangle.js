@@ -2,7 +2,7 @@
 
 class Rectangle {
   constructor (w, h) {
-    if (arguments.length !== 2 || w <= 0 || h <= 0) {
+    if (arguments.length !== 2 || w <= 0 || w === undefined || h <= 0) {
       return;
     }
 
